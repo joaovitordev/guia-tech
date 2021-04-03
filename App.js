@@ -1,14 +1,26 @@
 import React from 'react';
 
-import { ScrollView, StatusBar } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
 
 import Homepage from './components/Homepage';
+import BlueScreen from './components/BlueScreen';
+
+const Stack = createStackNavigator();
+
+function MyStack() {
+  return (
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Homepage" component={Homepage} />
+      <Stack.Screen name="BlueScreen" component={BlueScreen} />
+    </Stack.Navigator>
+  );
+}
 
 export default function App() {
   return (
-    <ScrollView>
-      <StatusBar backgroundColor="#121212" barStyle="light-content" />
-      <Homepage />
-    </ScrollView>
+    <NavigationContainer>
+      <MyStack />
+    </NavigationContainer>
   );
 }

@@ -6,3 +6,5 @@ export const Container = styled.View`
   background-color: #121212;
   height: 100%;
 `;
+
+export const Button = styled.Button``;

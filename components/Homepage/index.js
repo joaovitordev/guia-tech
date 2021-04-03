@@ -4,25 +4,32 @@ import {
   Container, Title, Card,  CardTitle, CardSubtitle, CardImage
 } from './styles';
 
+import { ScrollView, StatusBar, TouchableOpacity } from 'react-native';
+
 import blueScreeen from '../../assets/blue-screen.png';
 import bip from '../../assets/bell.png';
 import hardware from '../../assets/cpu.png';
 import software from '../../assets/content.png';
 
-export default function Homepage() {
+export default function Homepage({navigation}) {
+
   return (
+    <ScrollView>
+    <StatusBar backgroundColor="#121212" barStyle="light-content" />
     <Container>
       <Title>Guia Tech</Title>
 
-      <Card>
-        <CardImage source={blueScreeen} />
-        <CardTitle>
-          Tela Azul da morte
-        </CardTitle>
-        <CardSubtitle>
-          Descubra o que cada erro de tela azul significa.
-        </CardSubtitle>
-      </Card>
+      <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('BlueScreen')}>
+        <Card>
+          <CardImage source={blueScreeen} />
+          <CardTitle>
+            Tela Azul da morte
+          </CardTitle>
+          <CardSubtitle>
+            Descubra o que cada erro de tela azul significa.
+          </CardSubtitle>
+        </Card>
+      </TouchableOpacity>
 
       <Card>
         <CardImage source={bip} />
@@ -55,5 +62,6 @@ export default function Homepage() {
       </Card>
 
     </Container>
+    </ScrollView>
   );
 }
