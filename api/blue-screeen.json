@@ -1,0 +1,77 @@
+[    
+    {
+        "id": 1,
+        "title": "PAGE_FAULT_IN_NONPAGED_AREA",
+        "symptoms": "Tela azul",
+        "solution": "problemas de hardware, como memória, placa-mãe e etc."
+    },
+    {
+        "id": 2,
+        "title": "UNEXPECTED_KERNEL_MODE_TRAP",
+        "symptoms": "Tela azul",
+        "solution": "overclock instável, fonte de energia sem a potência necessária, calor, erros na BIOS ou memória RAM."
+    },
+    {
+        "id": 3,
+        "title": "BAD_POOL_CALLER",
+        "symptoms": "Tela azul",
+        "solution": "código vinculado a erros causados por hardware instalado incorretamente. Procure remover a peça nova e instalá-la novamente para verificar se o código volta a aparecer."
+    },
+    {
+        "id": 4,
+        "title": "DRIVER_IRQL_NOT_LESS_OR_EQUAL",
+        "symptoms": "Tela azul",
+        "solution": "incompatibilidade de hardware causada por peças recém instaladas, ou com defeito. Se você colocou uma placa de vídeo nova, tente trocar de slot."
+    },
+    {
+        "id": 5,
+        "title": "INACCESSIBLE_BOOT_DEVICE",
+        "symptoms": "Tela azul",
+        "solution": "é exibido quando o computador não consegue encontrar informações válidas de inicialização no disco que armazena o sistema, por exemplo."
+    },
+    {
+        "id": 6,
+        "title": "NTFS_FILE_SYSTEM ou FAT_FILE_SYSTEM",
+        "symptoms": "Tela azul",
+        "solution": "são sintomas de que seu disco rígido está morrendo. É uma situação de urgência: desligue o computador, remova o disco rígido e realize backup dos seus dados porque o uso contínuo desse HD pode acabar tornando a extração de dados inviável no futuro próximo."
+    },
+    {
+        "id": 7,
+        "title": "VIDEO_DRIVER_INIT_FAILURE",
+        "symptoms": "Tela azul",
+        "solution": "significa que seu computador está rodando um software controlador de vídeo que é incompatível com a placa que você está usando no momento. "
+    },
+    {
+        "id": 8,
+        "title": "THREAD_STUCK_IN_DEVICE_DRIVER",
+        "symptoms": "Tela azul",
+        "solution": " o driver de vídeo parou de funcionar, aguardando alguma instrução do sistema que acabou não vindo."
+    },
+    {
+        "id": 9,
+        "title": "MACHINE_CHECK_EXCEPTION",
+        "symptoms": "Tela azul",
+        "solution": "o erro está no processador"
+    },
+    {
+        "id": 10,
+        "title": "UNEXPECTED_KERNEL_MODE_TRAP",
+        "symptoms": "Tela azul",
+        "solution": "Overclock exagerado faz com que o computador tente trabalhar em velocidades muito superiores aos limites previstos pelo fabricante."
+    },
+    {
+        "id": 11,
+        "title": "DATA_BUS_ERROR",
+        "symptoms": "Tela azul",
+        "solution": "Se você colocou novos pentes de memória no seu computador recentemente e, do nada, começou a receber a tela azul, eis aí o problema."
+    },
+    {
+        "id": 12,
+        "title": "PFN_LIST_CORRUPT",
+        "symptoms": "Tela azul",
+        "solution": "o pente de memória está com algum defeito"
+    }
+]
+
+    
+
