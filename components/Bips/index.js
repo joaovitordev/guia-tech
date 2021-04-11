@@ -11,11 +11,11 @@ import {
   ErrorListCardSolution,
 } from './styles';
 
-import erros from '../../api/blue-screeen.json';
+import erros from '../../api/bips.json';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-export default function Homepage({navigation}) {
+export default function Bips({navigation}) {
 
   return (
     <ScrollView>

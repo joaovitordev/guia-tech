@@ -31,15 +31,17 @@ export default function Homepage({navigation}) {
         </Card>
       </TouchableOpacity>
 
-      <Card>
-        <CardImage source={bip} />
-        <CardTitle>
-          Bips
-        </CardTitle>
-        <CardSubtitle>
-          Descubra o que os bips querem dizer.
-        </CardSubtitle>
-      </Card>
+      <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Bips')}>
+        <Card>
+          <CardImage source={bip} />
+          <CardTitle>
+            Bips
+          </CardTitle>
+          <CardSubtitle>
+            Descubra o que os bips querem dizer.
+          </CardSubtitle>
+        </Card>
+      </TouchableOpacity>
 
       <Card>
         <CardImage source={hardware} />

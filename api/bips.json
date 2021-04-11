@@ -1,0 +1,89 @@
+[    
+    {
+        "id": 1,
+        "title": "2 bips curtos – um código de erro é mostrado no ecrã (Não foi possível iniciar o computador).",
+        "symptoms": "Bips",
+        "solution": "Este problema é causado por uma falha grave em algum componente, que a BIOS não foi capaz de identificar normalmente o problema é na placa mãe ou nos módulos de memória."
+    },
+    {
+        "id": 2,
+        "title": "Bip Contínuo, repetidos bips curtos.",
+        "symptoms": "Bips",
+        "solution": "Fonte de alimentação, problema no sistema, teclado."
+    },
+    {
+        "id": 3,
+        "title": "1 bip longo e 2 bips curtos ou 1 Bip longo e 3 bips curtos.",
+        "symptoms": "Bips",
+        "solution": "Adaptador de vídeo com problema, problemas com a BIOS da placa de vídeo. Na maioria das vezes este problema é causado por mau contato."
+    },
+    {
+        "id": 4,
+        "title": "1 Bip longo - Falha no Refresh.",
+        "symptoms": "Bips",
+        "solution": "O circuito de refresh da placa mãe está com problemas. Pode ser causado por danos na placa-mãe ou falhas nos módulos da memória RAM."
+    },
+    {
+        "id": 5,
+        "title": "2 Bips longos - Erro de paridade.",
+        "symptoms": "Bips",
+        "solution": "Detectado um erro de paridade na memória RAM."
+    },
+    {
+        "id": 6,
+        "title": "3 Bips longos - (Base 64k memory Failure).",
+        "symptoms": "Bips",
+        "solution": "Foi detectado um problema grave nos primeiros 64 KB da memória RAM. Defeito nas memórias ou na própria placa mãe. Mau contato."
+    },
+    {
+        "id": 7,
+        "title": "4 Bips Longos - Timer não operacional.",
+        "symptoms": "Bips",
+        "solution": "O Timer 1 não está operacional ou não consegue encontrar a memória RAM. O problema pode estar na placa mãe (mais provável) ou nos módulos de memória"
+    },
+    {
+        "id": 8,
+        "title": "5 Bips - Erro no processador.",
+        "symptoms": "Bips",
+        "solution": "Processador danificado ou mal encaixado."
+    },
+    {
+        "id": 9,
+        "title": "6 Bips - Falha no Gate 20.",
+        "symptoms": "Bips",
+        "solution": "O Gate 20 é um sinal gerado pelo chip 8042, responsável por colocar o processador em modo protegido. Processador danificado. Problemas relacionados com o chip 8042 localizado na placa mãe."
+    },
+    {
+        "id": 10,
+        "title": "7 Bips - o processador gera uma interrupção.",
+        "symptoms": "Bips",
+        "solution": "Overclock mal sucedido. O Overclock é um processo no qual a velocidade de componentes específicos de um computador pessoal são manualmente aumentadas, através de configurações e instruções diretas para o hardware. É recomendado baixar a frequência de operação do processador ou troca-lo."
+    },
+    {
+        "id": 11,
+        "title": "8 Bips - Erro na memória da placa de vídeo.",
+        "symptoms": "Bips",
+        "solution": "Mau contato ou placa de vídeo danificada."
+    },
+    {
+        "id": 12,
+        "title": "9 Bips - Erro na memória ROM.",
+        "symptoms": "Bips",
+        "solution": "Problemas com a memória Flash, onde está gravada a BIOS. Dano físico no chip da BIOS, provocado por um upgrade mal sucedido."
+    },
+    {
+        "id": 13,
+        "title": "10 Bips - Falha no CMOS shutdown.",
+        "symptoms": "Bips",
+        "solution": "Será um problema físico do chip. Trocar a placa mãe."
+    },
+    {
+        "id": 14,
+        "title": "11 Bips - Problemas com a memória cache.",
+        "symptoms": "Bips",
+        "solution": "Geralmente a BIOS consegue inicializar o sistema normalmente, desativando a memória cache. No entanto isso deteriora muito o desempenho do sistema. Entrar no Setup e aumentar os tempos de espera da memória cache. Às vezes ela volta a funcionar normalmente."
+    }
+]
+
+    
+
