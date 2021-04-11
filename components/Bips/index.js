@@ -3,7 +3,6 @@ import { ScrollView, StatusBar, TouchableOpacity } from 'react-native';
 
 import {
   Container,
-  Header,
   HeaderTitle,
   BackButton,
   ErrorListCard,
@@ -22,12 +21,13 @@ export default function Bips({navigation}) {
       <StatusBar backgroundColor="#121212" barStyle="light-content" />
       <Container>
 
-        <Header>
+        <BackButton>
           <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.goBack()}>
-            <Icon name="arrow-back" size={30} color="#FFF" />
+              <Icon name="arrow-back" size={30} color="#FFF" />
           </TouchableOpacity>
-          <HeaderTitle>Erros de tela azul</HeaderTitle>
-        </Header>
+        </BackButton>
+         
+        <HeaderTitle>Bips</HeaderTitle>
         
         {erros.map(erro => (
           <ErrorListCard key={erro.id}>

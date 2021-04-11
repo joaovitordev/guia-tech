@@ -4,6 +4,7 @@ import { ScrollView, StatusBar, TouchableOpacity } from 'react-native';
 import {
     Container,
     HeaderTitle,
+    BackButton,
     IconText,
     ErrorListCard,
     ErrorListCardSolution,
@@ -27,9 +28,12 @@ export default function Software({navigation}) {
     <ScrollView>
       <StatusBar backgroundColor="#121212" barStyle="light-content" />
         <Container>
-            <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.goBack()}>
-                <Icon name="arrow-back" size={30} color="#FFF" />
-            </TouchableOpacity>
+            <BackButton>
+                <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.goBack()}>
+                    <Icon name="arrow-back" size={30} color="#FFF" />
+                </TouchableOpacity>
+            </BackButton>
+            
             <HeaderTitle>Erros de Software</HeaderTitle>
 
             {erros.map(erro => (

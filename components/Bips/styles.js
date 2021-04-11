@@ -7,20 +7,25 @@ export const Container = styled.View`
   height: 100%;
 `;
 
-export const Header = styled.View`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+export const BackButton = styled.View`
+  background-color: #181818;
+  width: 45px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 15;
+  border-radius: 15px;
 `;
-
-export const BackButton = styled.Image``;
 
 export const HeaderTitle = styled.Text`
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 12px;
 `;
 
 export const ErrorListCard = styled.View`
@@ -31,7 +36,7 @@ export const ErrorListCard = styled.View`
   background-color: #181818;
   border-radius: 15px;
   padding: 15px 5px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 `;
 
 export const ErrorListCardTitle = styled.Text`
