@@ -2,35 +2,35 @@
     {
         "id": 1,
         "erro": "Ao tentar carregar o sistema operacional o computador apresenta a mensagem 'Disco sem sistema ou defeituoso'",
-        "additional-information": "O computador estava funcionando normalmente quando de repente parou de carregar o SO e começou a apresentar a mensagem de erro.",
+        "additionalInformation": "O computador estava funcionando normalmente quando de repente parou de carregar o SO e começou a apresentar a mensagem de erro.",
         "solution": "Reinstalar o Sistema Operacional.",
         "explication": "Algum arquivo do SO necessário ao carregamento do sistema foi apagado ou danificado por mau uso ou até mesmo um vírus, ao reinstalar o SO foram gravados no HD novos arquivos necessários ao boot e o problema foi resolvido."
     },
     {
         "id": 2,
         "erro": "O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa, mas sempre depois do boot.",
-        "additional-information": "Defeito começou a acontecer depois de uma queda repentina de energia enquanto usuário utilizava o computador.",
+        "additionalInformation": "Defeito começou a acontecer depois de uma queda repentina de energia enquanto usuário utilizava o computador.",
         "solution": "Reinstalar o Sistema Operacional.",
         "explication": "Quando houve a queda de energia durante a utilização do computador, alguns arquivos importantes do SO foram danificados. Ao reinstalar o SO, novos arquivos foram gravados por cima dos velhos que estavam com defeito e o problema foi resolvido. Porém, algumas vezes é preciso apagar o SO antigo completamente e instalar um novo, salvando os dados do usuário em um outro local e formatando o HD."
     },
     {
         "id": 3,
         "erro": "O computador está muito lento, tanto para ler ou gravar arquivos quanto para executar programas, digitar textos, acessar a Internet, etc. Alguns arquivos do usuário sumiram.",
-        "additional-information": "Às vezes trava, defeito apareceu depois que o usuário abriu um arquivo executável que um amigo lhe enviou por email.",
+        "additionalInformation": "Às vezes trava, defeito apareceu depois que o usuário abriu um arquivo executável que um amigo lhe enviou por email.",
         "solution": "Verificar e remover vírus de computador.",
         "explication": "Um vírus de computador pode causar sintomas estranhos, travar o computador, deixá-lo lento e apagar arquivos do usuário. Quando o usuário descuidado executou um arquivo que recebeu por email sem passar um antivírus atualizado, o vírus que estava infectando o arquivo se instalou no computador e começou a causar problemas."
     },
     {
         "id": 4,
         "erro": "Apesar de não haver distorções nas imagens, elas aparecem dentro do Windows com uma definição muito pobre e poucas cores.",
-        "additional-information": "Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número  maior de cores, nem para uma resolução maior de tela. Apenas aparece a opção de utilizar a resolução 640x480 com 16 cores (4 bit).",
+        "additionalInformation": "Ao entrar na configuração da resolução de tela do Windows, não é possível configurar para um número  maior de cores, nem para uma resolução maior de tela. Apenas aparece a opção de utilizar a resolução 640x480 com 16 cores (4 bit).",
         "solution": "Atualizar drivers da placa de vídeo.",
         "explication": "O driver correto para a placa de vídeo não estava instalado. Dessa forma, o SO utiliza um driver genérico que só tem as opções mais básicas de resolução de tela e de cor. Ao instalar o driver correto, todas as opções de número de cor e resolução de tela ficaram disponíveis."
     },
     {
         "id": 5,
         "erro": "O computador trava sempre durante a execução de um determinado programa aplicativo.",
-        "additional-information": "",
+        "additionalInformation": "",
         "solution": "Reinstalação do programa",
         "explication": "Ao reinstalar o programa, o problema foi solucionado. Porém, às vezes um programa não funciona ou trava o computador por que o computador não possui memória RAM ou velocidade suficiente para suportar o programa. Às vezes também é possível que haja uma incompatibilidade do programa com o hardware ou com o SO."
     }
