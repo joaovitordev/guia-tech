@@ -2,70 +2,70 @@
     {
         "id": 1,
         "erro": "Ao apertar o botão liga/desliga do gabinete nada acontece. ",
-        "additional-information": "O computador não liga, nenhum LED do gabinete acende, a energia fornecida na tomada está normal.",
+        "additionalInformation": "O computador não liga, nenhum LED do gabinete acende, a energia fornecida na tomada está normal.",
         "solution": "Substituir a fonte de alimentação por outra compatível.",
         "explication": "A fonte de alimentação estava queimada e como é ela que fornece energia para todos os componentes internos do computador, quando ela não funciona, nem mesmo um pequeno led do gabinete pode acender."
     },
     {
         "id": 2,
         "erro": "Durante a utilização do computador, as imagens perdem a definição. ",
-        "additional-information": "Às vezes aparecem barras verticais na tela e cores estranhas, o defeito acontece com mais frequência quando o usuário utiliza programas que utilizam mais os recursos de vídeo, como jogos e programas de edição de imagens.",
+        "additionalInformation": "Às vezes aparecem barras verticais na tela e cores estranhas, o defeito acontece com mais frequência quando o usuário utiliza programas que utilizam mais os recursos de vídeo, como jogos e programas de edição de imagens.",
         "solution": "Substituir a Placa de vídeo por outra off-board compatível.",
         "explication": "A placa de vídeo está com problemas ocasionando distorções na geração de imagens. Ela não está totalmente defeituosa, por isso, apesar das distorções, o usuário conseguia enxergar as telas dos programas."
     },
     {
         "id": 3,
         "erro": "Durante a utilização do computador, ao acessar alguns arquivos no HD o computador trava durante alguns segundos e volta a funcionar.",
-        "additional-information": "Às vezes, ao tentar acessar alguns arquivos no HD o Windows avisa que eles estão corrompidos e não permite o acesso, às vezes pode se ouvir uns estalos bem altos que vem de dentro do computador. Mensagem de erro: 'O arquivo que você está tentando acessar pode estar corrompido'.",
+        "additionalInformation": "Às vezes, ao tentar acessar alguns arquivos no HD o Windows avisa que eles estão corrompidos e não permite o acesso, às vezes pode se ouvir uns estalos bem altos que vem de dentro do computador. Mensagem de erro: 'O arquivo que você está tentando acessar pode estar corrompido'.",
         "solution": "Substituir o disco rígido por outro.",
         "explication": "Um HD com setores defeituosos pode corromper arquivos e ocasionar travamentos curtos, ou até travamentos em que é preciso desligar o computador e ligar novamente. Também é muito comum HDs com defeito provocarem um barulho forte, como se fossem estalos dentro do computador. "
     },
     {
         "id": 4,
         "erro": "O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.",
-        "additional-information": "",
+        "additionalInformation": "",
         "solution": "Substituir pentes de memória RAM por outros compatíveis.",
         "explication": ""
     },
     {
         "id": 5,
         "erro": "O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.",
-        "additional-information": "O travamento ocorre com mais frequência depois que o computador está ligado por algum tempo.",
+        "additionalInformation": "O travamento ocorre com mais frequência depois que o computador está ligado por algum tempo.",
         "solution": "Substituir o Cooler do Processador.",
         "explication": "A ventoinha do cooler estava parada e não estava refrigerando corretamente o processador. Quando o processador superaquece, podem ocorrer travamentos além de outros defeitos."
     },
     {
         "id": 6,
         "erro": "Logo ao ligar o computador o autoteste (POST) exibe a mensagem 'HDD Failure' (Falha no HD).",
-        "additional-information": "Após a mensagem o computador suspende suas atividades, não chegando nem mesmo a iniciar o boot.",
+        "additionalInformation": "Após a mensagem o computador suspende suas atividades, não chegando nem mesmo a iniciar o boot.",
         "solution": "Substituir o disco rígido por outro.",
         "explication": "Um HD com um grande dano na superfície do seu disco, no motor ou na cabeça de leitura, ou ainda com a placa de circuitos queimada geralmente ocasiona essa mensagem de erro no autoteste, logo que o computador é ligado."
     },
     {
         "id": 7,
         "erro": "Nenhum sinal de vídeo aparece no monitor.",
-        "additional-information": "O computador liga normalmente e você consegue ouvir o bip que indica sucesso no autoteste. Além disso, parece que o computador está carregando o SO normalmente, porque você consegue ouvir o som inicial de entrada do Windows.",
+        "additionalInformation": "O computador liga normalmente e você consegue ouvir o bip que indica sucesso no autoteste. Além disso, parece que o computador está carregando o SO normalmente, porque você consegue ouvir o som inicial de entrada do Windows.",
         "solution": "Substituir o monitor de vídeo por outro.",
         "explication": "O Monitor está com defeito e não está exibindo imagens. Como é um dispositivo de saída, ele não influencia no funcionamento do computador. Por isso o computador continua funcionando normalmente, mesmo com monitor defeituoso."
     },
     {
         "id": 8,
         "erro": "O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.",
-        "additional-information": "",
+        "additionalInformation": "",
         "solution": "Substituir o processador por outro compatível.",
         "explication": "Um processador defeituoso é causa frequente de travamentos do computador."
     },
     {
         "id": 9,
         "erro": "O computador trava ou reinicia sozinho em qualquer momento, durante a utilização de qualquer programa e às vezes trava mesmo antes do boot.",
-        "additional-information": "",
+        "additionalInformation": "",
         "solution": "Substituir a placa-mãe por outra compatível",
         "explication": "Uma placa-mãe defeituosa é causa frequente de travamentos do computador."
     },
     {
         "id": 10,
         "erro": "Às vezes o computador não liga e apresenta bips longos e espaçados.",
-        "additional-information": "Quando liga às vezes trava na execução de qualquer programa e até mesmo antes do boot. Problema começou a acontecer depois que o computador foi transportado de uma casa para outra no porta-malas de um carro.",
+        "additionalInformation": "Quando liga às vezes trava na execução de qualquer programa e até mesmo antes do boot. Problema começou a acontecer depois que o computador foi transportado de uma casa para outra no porta-malas de um carro.",
         "solution": "Fazer uma limpeza em todos os componentes internos para eliminar mau-contatos.",
         "explication": ""
     }

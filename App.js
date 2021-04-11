@@ -6,6 +6,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import Homepage from './components/Homepage';
 import BlueScreen from './components/BlueScreen';
 import Bips from './components/Bips';
+import Hardware from './components/Hardware';
+import Software from './components/Software';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +17,8 @@ function MyStack() {
       <Stack.Screen name="Homepage" component={Homepage} />
       <Stack.Screen name="BlueScreen" component={BlueScreen} />
       <Stack.Screen name="Bips" component={Bips} />
+      <Stack.Screen name="Hardware" component={Hardware} />
+      <Stack.Screen name="Software" component={Software} />
     </Stack.Navigator>
   );
 }

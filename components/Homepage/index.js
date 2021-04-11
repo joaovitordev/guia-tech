@@ -43,25 +43,29 @@ export default function Homepage({navigation}) {
         </Card>
       </TouchableOpacity>
 
-      <Card>
-        <CardImage source={hardware} />
-        <CardTitle>
-          Erros de hardware
-        </CardTitle>
-        <CardSubtitle>
-          Problemas comuns de hardware.
-        </CardSubtitle>
-      </Card>
+      <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Hardware')}>
+        <Card>
+          <CardImage source={hardware} />
+          <CardTitle>
+            Erros de hardware
+          </CardTitle>
+          <CardSubtitle>
+            Problemas comuns de hardware.
+          </CardSubtitle>
+        </Card>
+      </TouchableOpacity>
 
-      <Card>
-        <CardImage source={software} />
-        <CardTitle>
-          Erros de software
-        </CardTitle>
-        <CardSubtitle>
-          Erros comuns de software.
-        </CardSubtitle>
-      </Card>
+      <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Software')}>
+        <Card>
+          <CardImage source={software} />
+          <CardTitle>
+            Erros de software
+          </CardTitle>
+          <CardSubtitle>
+            Erros comuns de software.
+          </CardSubtitle>
+        </Card>
+      </TouchableOpacity>
 
     </Container>
     </ScrollView>
