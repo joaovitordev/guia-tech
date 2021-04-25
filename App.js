@@ -2,6 +2,7 @@ import React from 'react';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
+import { StyleSheet, Text, SafeAreaView } from 'react-native';
 
 import Homepage from './components/Homepage';
 import BlueScreen from './components/BlueScreen';
@@ -25,8 +26,13 @@ function MyStack() {
 
 export default function App() {
   return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#121212' }}>
     <NavigationContainer>
       <MyStack />
     </NavigationContainer>
+    </SafeAreaView>
+
   );
+
 }
+

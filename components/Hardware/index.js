@@ -29,7 +29,7 @@ export default function Hardware({navigation}) {
       <StatusBar backgroundColor="#121212" barStyle="light-content" />
         <Container>
             <BackButton>
-                <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.goBack()}>
+                <TouchableOpacity  onPress={() => navigation.goBack()}>
                     <Icon name="arrow-back" size={30} color="#FFF" />
                 </TouchableOpacity>
             </BackButton>

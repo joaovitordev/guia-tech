@@ -19,7 +19,7 @@ export default function Homepage({navigation}) {
       <Container>
         <Title>Guia Tech</Title>
 
-        <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('BlueScreen')}>
+        <TouchableOpacity style={{ width: '90%', marginVertical: '20px' }}  onPress={() => navigation.navigate('BlueScreen')}>
           <Card>
             <CardImage source={blueScreeen} />
             <CardTitle>
@@ -31,7 +31,7 @@ export default function Homepage({navigation}) {
           </Card>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Bips')}>
+        <TouchableOpacity style={{ width: '90%', marginVertical: '20px' }}  onPress={() => navigation.navigate('Bips')}>
           <Card>
             <CardImage source={bip} />
             <CardTitle>
@@ -43,7 +43,7 @@ export default function Homepage({navigation}) {
           </Card>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Hardware')}>
+        <TouchableOpacity style={{ width: '90%', marginVertical: '20px' }} onPress={() => navigation.navigate('Hardware')}>
           <Card>
             <CardImage source={hardware} />
             <CardTitle>
@@ -55,7 +55,7 @@ export default function Homepage({navigation}) {
           </Card>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{ display: 'contents' }} onPress={() => navigation.navigate('Software')}>
+        <TouchableOpacity style={{ width: '90%', marginVertical: '20px' }}  onPress={() => navigation.navigate('Software')}>
           <Card>
             <CardImage source={software} />
             <CardTitle>
@@ -71,3 +71,4 @@ export default function Homepage({navigation}) {
      </ScrollView>
   );
 }
+
